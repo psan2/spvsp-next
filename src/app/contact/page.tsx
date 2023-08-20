@@ -1,11 +1,11 @@
 import { FC } from 'react'
 
-interface pageProps {
+interface ContactPageProps {
 
 }
 
-const page: FC<pageProps> = ({}) => {
+const ContactPage: FC<ContactPageProps> = ({}) => {
   return <div>Contact page</div>
 }
 
-export default page
+export default ContactPage

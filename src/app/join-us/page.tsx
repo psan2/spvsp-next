@@ -1,11 +1,11 @@
 import { FC } from 'react'
 
-interface pageProps {
+interface JoinUsPageProps {
 
 }
 
-const page: FC<pageProps> = ({}) => {
+const JoinUsPage: FC<JoinUsPageProps> = ({}) => {
   return <div>Join us page</div>
 }
 
-export default page
+export default JoinUsPage

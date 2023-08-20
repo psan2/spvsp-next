@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link
                   className={isActive ? "text-white" : ""}
                   href={link.href}
-                  key={link.title}
+                  key={link.href}
                 >
                   {link.title}
                 </Link>

@@ -1,11 +1,11 @@
 import { FC } from 'react'
 
-interface pageProps {
+interface TrainingPageProps {
 
 }
 
-const page: FC<pageProps> = ({}) => {
-  return <div>Training page</div>
+const TrainingPage: FC<TrainingPageProps> = ({}) => {
+  return <div>Training Page</div>
 }
 
-export default page
+export default TrainingPage

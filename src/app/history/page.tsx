@@ -1,11 +1,11 @@
 import { FC } from 'react'
 
-interface pageProps {
+interface HistoryPageProps {
 
 }
 
-const page: FC<pageProps> = ({}) => {
+const HistoryPage: FC<HistoryPageProps> = ({}) => {
   return <div>History Page</div>
 }
 
-export default page
+export default HistoryPage
