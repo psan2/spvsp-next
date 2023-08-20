@@ -1,9 +1,10 @@
 import Link from "next/link";
+import { externalURLs } from "../../../constants";
 
 const FacebookLogo = () => {
   return (
     <Link
-      href="https://www.facebook.com/spvsp"
+      href={externalURLs.spvspFacebookPage}
       className="flex gap-2 items-center text-center"
     >
       <p>Find us on</p>

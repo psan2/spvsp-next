@@ -5,8 +5,8 @@ import NSPLogo from "./UI/NSPLogo";
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc-800  w-full max-w-screen-xl mx-auto">
-      <hr className=" mx-auto border-gray-700" />
+    <footer className="bg-zinc-800 w-full max-w-screen-xl mx-auto">
+      <hr className="mx-auto border-gray-700" />
       <div className="flex items-center justify-between font-medium text-gray-400 p-5">
         <ul className="flex flex-wrap justify-between gap-3 items-center">
           <li>
