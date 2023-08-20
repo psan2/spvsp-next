@@ -5,14 +5,14 @@ import { siteConfig } from "@/config/SiteConfig";
 
 const Navbar = () => {
   const pathname = usePathname();
-  const { MainNavBar } = siteConfig;
+  const { mainNavBar } = siteConfig;
 
   return (
     <>
-      <div className="fixed top-0 inset-x-0 bg-zinc-800 border-b border-zinc-600 py-2">
-        <div className="flex justify-center my-2">
+      <div className="fixed top-0 inset-x-0  bg-zinc-800 py-2">
+        <div className="flex justify-center py-2">
           <div className="flex gap-4 md:gap-9 text-md font-semibold text-gray-400">
-            {MainNavBar.map((link) => {
+            {mainNavBar.map((link) => {
               const isActive = pathname === link.href;
               return (
                 <Link
@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center">
         <img src="west-view.jpg" alt="West Image" />
       </div>
     </>

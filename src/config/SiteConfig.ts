@@ -1,7 +1,7 @@
-import { MainNavBarItems } from "@/types";
+import { mainNavBarItems } from "@/types";
 
 export const siteConfig = {
-  MainNavBar: [
+  mainNavBar: [
     {
       title: "Home",
       href: "/",
@@ -27,5 +27,5 @@ export const siteConfig = {
       href: "/contact",
       external: false,
     },
-  ] satisfies MainNavBarItems[],
+  ] satisfies mainNavBarItems[],
 };
