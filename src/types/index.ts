@@ -1,5 +1,5 @@
-export interface MainNavBarItems {
-    title: string
-    href: string
-    external: boolean
-  }
+export interface mainNavBarItems {
+  title: string;
+  href: string;
+  external: boolean;
+}
