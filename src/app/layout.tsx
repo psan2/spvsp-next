@@ -18,11 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <body className="bg-zinc-800 min-h-screen">
+      <body className="bg-zinc-200 dark:bg-zinc-800 min-h-screen">
         <div className="container max-w-7xl mx-auto">
           <Navbar />
         </div>
-        <div className="container max-w-7xl mx-auto text-gray-400">
+        <div className="container max-w-7xl mx-auto text-gray-700 dark:text-gray-400">
           {children}
         </div>
         <div className="sticky top-[100vh] m-2">
