@@ -9,14 +9,14 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 inset-x-0 bg-zinc-800 py-2">
+      <div className="fixed top-0 inset-x-0 bg-zinc-200 dark:bg-zinc-800 py-2">
         <div className="flex justify-center py-2">
-          <div className="flex gap-4 md:gap-9 text-md font-semibold text-gray-400">
+          <div className="flex gap-4 md:gap-9 text-md font-semibold text-gray-600 dark:text-gray-400">
             {mainNavBar.map((link) => {
               const isActive = pathname === link.href;
               return (
                 <Link
-                  className={isActive ? "text-white" : ""}
+                  className={isActive ? "text-black dark:text-white" : ""}
                   href={link.href}
                   key={link.href}
                 >
